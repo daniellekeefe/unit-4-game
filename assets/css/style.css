@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 html,
 body {
     height: 100%;
@@ -11,46 +10,36 @@ body {
     width: 960px;
     margin: 0 auto;
 }
+
 .clearfix {
     content: " ";
     display: block;
     clear: both;
     overflow: auto;
 }
-h1{
+
+h1 {
     background-color: darkgoldenrod;
     color: white;
     width: 30%;
 }
-.content{
+
+.content {
     background-color: yellow;
     width: 60%;
 }
-.random{
-    margin: 5px;
-    border: 3px solid #4aaaa5;
-   background-image: green;
-    float: left;
-}
-.score{
-    margin: 5px;
-    border: 3px solid #4aaaa5;
-    background-color: teal;
-    float: left;
-}
-.gems{
-    margin: 5px;
-    border: 3px solid #4aaaa5;
-    float: left;
-  }
-  
 
-  
-  .gems {
+.gems {
+    margin: 5px;
+    border: 3px solid #4aaaa5;
+    float: left;
+}
+
+.gems {
     width: inherit;
-  }
-  
-  img {
+}
+
+img {
     width: 100%;
     height: 90%
-  }
+}
