@@ -20,33 +20,35 @@
         <div class="content ">
             <div class="row">
                 <div class="directions col-md-8">
+                    <!--Game Directions-->
                     <p>
-                        There will be four crystals displayed as buttons on the page.
+                        <p>Directions: </p>
+                        
+                        <p>*There will be four crystals displayed as buttons on the page.
                         The player will be shown a random number at the start of the game.
                         When the player clicks on a crystal, it will add a specific amount of points to the player's
-                        total
-                        score.
-                        Your game will hide this amount until the player clicks a crystal.
-                        When they do click one, update the player's score counter.
-                        The player wins if their total score matches the random number from the beginning of the game.
+                        total score.</p>
+                        
+                        <p>*Crystal value will be hid until the player clicks a crystal.
+                        When they do click one, update the player's score counter.</p>
+                        <p>*The player wins if their total score matches the random number from the beginning of the game.
                         The player loses if their score goes above the random number.
-                        The game restarts whenever the player wins or loses.
+                        The game restarts whenever the player wins or loses.</p>
 
                     </p>
                 </div>
             </div>
         </div>
 
-        <div id="crystalGame">
+        <div class="crystalGame">
             <div class="row">
                 <div class="random col-md-6">
                     <p>Random Number: </p>
                 </div>
-                <div class='player col-md-6'>
-                    <div class="score">
-                        <p>Wins: 0</p>
-                        <p>Losses: 0</p>
-                    </div>
+
+                <div class="score col-md-6">
+                    <p>Wins: 0</p>
+                    <p>Losses: 0</p>
                 </div>
             </div>
             <br>
@@ -56,29 +58,36 @@
                 </div>
             </div>
 
-
         </div>
+        <!--Actual Crytal Images-->
         <div class="row">
-            <div class="gems">
+            <div class="gems col-md">
                 <button id="gem1" class="btn btn-gem" value="1">
                     <img src="./assets/images/cry1.png">
                     <H2>Gem1</H2>
                 </button>
+            </div>
+            <div class="gems col-md">
                 <button id="gem2" class="btn btn-gem" value="2">
-                        <img src="./assets/images/cry2.png">
+                    <img src="./assets/images/cry2.png">
                     <H2>Gem2</H2>
                 </button>
+            </div>
+            <div class="gems col-md">
                 <button id="gem3" class="btn btn-gem" value="3">
-                        <img src="./assets/images/cry3.png">
+                    <img src="./assets/images/cry3.png">
                     <H2>Gem3</H2>
                 </button>
+            </div>
+            <div class="gems col-md">
                 <button id="gem4" class="btn btn-gem" value="4">
-                        <img src="./assets/images/cry4.png">
+                    <img src="./assets/images/cry4.png">
                     <H2>Gem4</H2>
                 </button>
-
-
             </div>
+
+
+
         </div>
     </div>
 

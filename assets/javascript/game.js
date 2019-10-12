@@ -38,7 +38,7 @@ function update() {
   "<p>Player Score: " + playerScore + "</p>"
 
   //document.querySelector('#crystalGame').innerHTML = html;
-  $('#crystalGame').html(html)
+  $('.crystalGame').html(html)
 }//ICEBOX talk about template literals
 
 
