@@ -64,3 +64,17 @@ function reset() {
   //note with console log to validate, kept in there to easily test  
   console.log("comp guess reset", random);
 }
+$(document).ready(function () {
+  $('#gem1').on('click', function () {
+    $('#gem1').fadeToggle(50).fadeToggle(50);
+  });
+  $('#gem2').on('click', function () {
+    $('#gem2').fadeToggle(50).fadeToggle(50);
+  });
+  $('#gem3').on('click', function () {
+    $('#gem3').fadeToggle(50).fadeToggle(50);
+  });
+  $('#gem4').on('click', function () {
+    $('#gem4').fadeToggle(50).fadeToggle(50);
+  });
+});
